@@ -9,7 +9,7 @@ import numpy as np
 # Load Dataset
 @st.cache_data
 def load_data():
-    file_path = r"C:\Users\Data Professional\Documents\customer data.csv"  # Update with actual path
+    file_path = "https://raw.githubusercontent.com/paul2064/customerapp.py/main/customerdata.csv"  # Update with actual path
     df = pd.read_csv(file_path)
     return df
 
